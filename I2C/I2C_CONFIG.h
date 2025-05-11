@@ -1,0 +1,21 @@
+#ifndef I2C_CONFIG_H_
+#define I2C_CONFIG_H_
+
+
+
+
+#define CPU_FREQ    8000000UL
+
+/*
+PRESCALLER_BY_1 
+PRESCALLER_BY_4 
+PRESCALLER_BY_16
+PRESCALLER_BY_64
+*/
+
+#define TWI_PRESCALLER   PRESCALLER_BY_4
+
+#define SCL_Clock  400000UL
+
+
+#endif
